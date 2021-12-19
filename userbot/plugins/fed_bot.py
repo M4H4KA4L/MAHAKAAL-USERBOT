@@ -24,7 +24,7 @@ from mahakaalbot.plugins.sql_helper.fban_sql import (
 
 logs_id = Config.FBAN_LOGGER_GROUP
 bot = "@MissRose_bot"
-mahakaal_logo = "./H1M4N5HU0P/mafiabot_logo.jpg"
+mahakaal_logo = "./M4H4KA4L/mahakaalbot_logo.jpg"
 # Keep all credits pls
 # madewith great effort by @HeisenbergTheDanger
 # modified by @kraken_the_badass for fbans
