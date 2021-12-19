@@ -37,7 +37,7 @@ pm_caption += f"┣•❥︎➼❥︎ `Sudo:` `{sudou}`\n"
 pm_caption += f"┣•❥︎➼❥︎ `Channel:` [𝐉𝐎𝐈𝐍](https://t.me/Official_MahakaalBot_Support)\n"
 pm_caption += f"┣•❥︎➼❥︎ `Creator:` [𝑴𝒂𝒉𝒂𝒌𝒂𝒂𝒍](https://t.me/Belongs_to_Lord_Shiva_nd_Haryana)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += " [🔥REPO🔥](https://github.com/MafiaBotOP/MafiaBot) 🔹 [📜License📜](https://github.com/MafiaBotOP/MafiaBot/blob/main/LICENSE)"
+pm_caption += " [🔥REPO🔥](https://github.com/M4H4KA4L/MAHAKAALBOT) 🔹 [📜License📜](https://github.com/M4H4KA4L/MAHAKAALBOT/blob/main/LICENSE)"
 
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
