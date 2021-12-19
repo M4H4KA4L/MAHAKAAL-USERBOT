@@ -8,7 +8,7 @@ from . import *
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mahakaal User"
-mahakaal_logo = "./H1M4N5HU0P/mafiabot_logo.jpg"
+mahakaal_logo = "./M4H4KA4L/mahakaalbot_logo.jpg"
 
 @mahakaalbot.on(admin_cmd(pattern=r"cmds"))
 @mahakaalbot.on(sudo_cmd(pattern=r"cmds", allow_sudo=True))
