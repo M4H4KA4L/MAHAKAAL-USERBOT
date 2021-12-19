@@ -22,7 +22,7 @@ heroku_api = "https://api.heroku.com"
 HEROKU_APP_NAME = Config.HEROKU_APP_NAME
 HEROKU_API_KEY = Config.HEROKU_API_KEY
 
-mahakaal_logo = "./H1M4N5HU0P/mafiabot_logo.jpg"
+mahakaal_logo = "./M4H4KA4L/mahakaalbot_logo.jpg"
 
 MAHAKAAL_NAME = str(ALIVE_NAME) if ALIVE_NAME else "Mahakaal User"
 Belongs_to_Lord_Shiva_nd_Haryana = bot.uid
