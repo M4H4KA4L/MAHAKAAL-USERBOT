@@ -31,7 +31,7 @@ from userbot.cmdhelp import *
 from mahakaalbot.utils import *
 from userbot.Config import Config
 
-mahakaal_help_pic = Config.HELP_PIC or "https://telegra.ph/file/4867a82215dd55270c85a.mp4"
+mahakaal_help_pic = Config.HELP_PIC or "https://telegra.ph/file/f1c4238435c77fdeb6704.mp4"
 mahakaal_row = Config.BUTTONS_IN_HELP
 mahakaal_emoji = Config.EMOJI_IN_HELP
 # thats how a lazy guy imports
