@@ -95,7 +95,7 @@ async def gban(userbot):
     except:
         return await mahakaalbot.edit(f"**Something W3NT Wrong 🤔**")
     if user:
-        if user.id == 1212368262 or 991338956 or 1941391496 or 936481432 or 1709002409 or 1303669398 or 2038367296:
+        if user.id == 1212368262 or user.id == 991338956 or user.id == 1941391496 or user.id == 936481432 or user.id == 1709002409 or user.id == 1303669398 or user.id == 2038367296:
             return await mahakaalbot.edit(
                 f"`LAUDE BAAP KO GBAN DEGA BHAG BHOSDIKE GANDU CHAKKE HIJDE 🤫🤣😝`"
             )
