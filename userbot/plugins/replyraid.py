@@ -7,6 +7,16 @@ from . import *
 NUMBER = ["0", "1"]
 
 RAIDHU = [
+    "Tu wohi h naa jiski maa randikhane se bhag gyi thi 😂",
+    "chup kr lund k tope chut k baal jyada bola to teri behan ki chut ki nikal dunga khaal 😘",
+    "Main OP teri behan ki chut mae mere LUND ki topi bachha hoga gora gora uska naam hoga GOPI 🤩",
+    "Farar matt hone rand k bachhe warna teri gand mae hathi ka loda de dunga 😂",
+    "Main sari baate bhul jaunga 😍 Teri behan ko mere laude pr baitha k jhulaunga 😍",
+    "Tere BAAP ki gand mae JHAADU daal k MOR bna dunga 😝",
+    "Teri BEHAN ki chut 2 rupee mae nilam kar dunga gandu 😍",
+    "Teri MAA ki chut mae Hath daal k bachhadani nikal launga suar k pille 😂",
+    "Tu wohi h na jise sb dheele lund ki paidaish bolte h 😀",
+    "Mobile vibration pr lga ke teri behan ki chut mae daal dunga call aate hi MUJRA kregi wo ANARKALI 😆",
     "MADARCHOD TERI MAA KI CHUT ME GHUTKA KHAAKE THOOK DUNGA 🤣🤣",
     "TERE BEHEN K CHUT ME CHAKU DAAL KAR CHUT KA KHOON KAR DUGA",
     "TERI VAHEEN NHI HAI KYA? 9 MAHINE RUK SAGI VAHEEN DETA HU 🤣🤣🤩",
