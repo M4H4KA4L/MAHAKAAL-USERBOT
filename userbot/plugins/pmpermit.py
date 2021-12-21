@@ -152,7 +152,7 @@ if Var.MAHAKAALBOT_LOGGER is not None:
         event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-            if chat.id == 1212368262 or chat.id == 991338956 :
+            if chat.id == 1212368262 or chat.id == 991338956:
                 await event.edit("Sorry, I Can't Disapprove My Master")
             else:
                 if pmpermit_sql.is_approved(chat.id):
