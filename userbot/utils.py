@@ -78,7 +78,7 @@ def load_module(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["userbot.plugins." + shortname] = mod
-        LOGS.info("⚡🔥MahakaalBot⚡🔥 - Successfully imported " + shortname)
+        LOGS.info("😈😈MahakaalBot😈😈 - Successfully imported " + shortname)
 
 
 def remove_plugin(shortname):
