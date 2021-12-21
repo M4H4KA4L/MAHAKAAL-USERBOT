@@ -127,7 +127,7 @@ async def gban(userbot):
     except:
         pass
     return await mahakaalbot.edit(
-        f"[{user.first_name}](tg://user?id={user.id}) Beta humse piloge [{MAHAKAAL}](tg://user?id={papa}) to zindagi bhar hiloge.\n\n**Gban Successful 🔥\nAffected Chats😏 : {a} **"
+        f"[{user.first_name}](tg://user?id={user.id}) Beta [{MAHAKAAL}](tg://user?id={papa}) se piloge to zindagi bhar hiloge.\n\n**Gban Successful 🔥\nAffected Chats😏 : {a} **"
     )
 
 @bot.on(admin_cmd(pattern="ungban ?(.*)"))
