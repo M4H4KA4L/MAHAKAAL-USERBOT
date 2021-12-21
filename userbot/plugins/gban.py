@@ -97,7 +97,7 @@ async def gban(userbot):
     if user:
         if user.id == 1212368262 or 991338956 or 1941391496 or 936481432 or 1709002409 or 1303669398 or 2038367296:
             return await mahakaalbot.edit(
-                f"`LAUDE BAAP KO GBAN DEGA BHAG BHOSDI KE 🤫🚶`"
+                f"`LAUDE BAAP KO GBAN DEGA BHAG BHOSDIKE GANDU CHAKKE HIJDE 🤫🤣😝`"
             )
         try:
             from userbot.plugins.sql_helper.gmute_sql import gmute
