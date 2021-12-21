@@ -84,7 +84,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             veriler = button(0, sorted(CMD_HELP))
             result = await builder.article(
                 f"Hey! Only use .help please",
-                text=f"**Running MahakaalBot**[⚡🔥]({mahakaal_help_pic})\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
+                text=f"**Running MahakaalBot**[😇]({mahakaal_help_pic})\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=True,
             )
@@ -99,20 +99,20 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         elif event.text=='':
             result = builder.article(
                 "@Official_MahakaalBot_Support",
-                text=f"""**Hey![🤗]({mahakaal_help_pic}) This is [MahakaalBot.](https://t.me/Official_MahakaalBot_Support)\nYou can know more about me from the links given below 👇**""",
+                text=f"""**Hey![😇]({mahakaal_help_pic}) This is [MahakaalBot.](https://t.me/Official_MahakaalBot_Support)\nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/Official_MahakaalBot_Support"),
+                        custom.Button.url("😈 CHANNEL 😈", "https://t.me/Official_MahakaalBot_Support"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/Official_MahakaalBot_Chat"
+                            "😈 GROUP 😈", "https://t.me/Official_MahakaalBot_Chat"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/M4H4KA4L/MAHAKAALBOT"),
+                            "🥰 REPO 🥰", "https://github.com/M4H4KA4L/MAHAKAALBOT"),
                         custom.Button.url
                     (
-                            "🔰 TUTORIAL 🔰", "https://youtu.be/aRFWP4_RCaE"
+                            "😁 TUTORIAL 😁", "https://youtu.be/aRFWP4_RCaE"
                     )
                     ],
                 ],
@@ -131,7 +131,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**Legenday AF MahakaalBot[⚡🔥]({mahakaal_help_pic})[.](https://t.me/Official_MahakaalBot_Support) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
+            f"**Legenday AF MahakaalBot[😈😈]({mahakaal_help_pic})[.](https://t.me/Official_MahakaalBot_Support) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=True,
         )
@@ -140,7 +140,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             await delete_mahakaal(event,
-              f"⚜️MahakaalBot Menu Provider Is now Closed[⚜️]({mahakaal_help_pic})\n\n         **[© MahakaalBot ™](t.me/Official_MahakaalBot_Support)**[⚡🔥]({mahakaal_help_pic})", 5, link_preview=True
+              f"😈MahakaalBot Menu Provider Is now Closed[😈]({mahakaal_help_pic})\n\n         **[© MahakaalBot ™](t.me/Official_MahakaalBot_Support)**[⚡🔥]({mahakaal_help_pic})", 5, link_preview=True
             )
         else:
             mahakaal_alert = "HELLO THERE. PLEASE MAKE YOUR OWN MAHAKAALBOT AND USE. © MahakaalBot ™"
@@ -162,7 +162,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         try:
             buttons = [
                 custom.Button.inline(
-                    "⚡ " + cmd[0], data=f"commands[{commands}[{page}]]({cmd[0]})"
+                    "👉 " + cmd[0], data=f"commands[{commands}[{page}]]({cmd[0]})"
                 )
                 for cmd in CMD_HELP_BOT[commands]["commands"].items()
             ]
