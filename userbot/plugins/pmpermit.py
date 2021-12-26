@@ -296,7 +296,7 @@ if Var.MAHAKAALBOT_LOGGER is not None:
 
 
 # Do not touch the below codes!
-@bot.on(events.NewMessage(incoming=True, from_users=(1212368262) or from_users=(991338956)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1212368262, 991338956)))
 async def hehehe(event):
     if event.fwd_from:
         return
