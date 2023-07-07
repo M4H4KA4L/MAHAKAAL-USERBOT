@@ -1,5 +1,8 @@
-from sample_config import Config
+# Delete old Config.py from userbot folder
+# Rename this file from exampleconfig.py to Config.py
+# Move this file into userbot folder
 
+from sample_config import Config
 
 class Development(Config):
   # get this values from my.telegram.org. 
@@ -30,7 +33,7 @@ class Development(Config):
   # and type /id and paste that id here.
   # replace that -100 with that group id.
   PRIVATE_GROUP_BOT_API_ID = -100
-          MAHAKAALBOT_LOGGER = -1001174481876
+  MAHAKAALBOT_LOGGER = -1001174481876
   # Custom Command Handler. 
   COMMAND_HAND_LER = "."
 
